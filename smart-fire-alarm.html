@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/gallery.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
 <body class="is-preload">
@@ -45,7 +46,17 @@
             <header class="major">
                 <h2>Gallery</h2>
             </header>
-            <span class="image fit"><img src="images/iot-fire-alarm/iot-fire-alarm.png" alt="Smart Fire Alarm" /></span>
+            <div class="gallery">
+                <div class="carousel">
+                    <button class="prev" aria-label="Previous">&lsaquo;</button>
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="images/iot-fire-alarm/iot-fire-alarm.png" alt="Smart Fire Alarm System" />
+                        </div>
+                    </div>
+                    <button class="next" aria-label="Next">&rsaquo;</button>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -62,6 +73,9 @@
             <li>&copy; Audrey Jeanelle Aman</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
         </ul>
     </section>
+
+    <!-- Scripts -->
+    <script src="assets/js/gallery.js"></script>
 
 </body>
 </html>
