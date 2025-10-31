@@ -3510,3 +3510,22 @@ input, select, textarea {
 			}
 
 	}
+
+/* ===============================
+   Other Electronics Projects Section
+   =============================== */
+#other-electronics-projects .container {
+    background-color: #f9f9f9; /* lighter background */
+    padding: 2em;              /* top & bottom padding inside section */
+    margin-bottom: 3em;        /* space below before next section */
+}
+
+#other-notable-projects .container {
+    background-color: #f9f9f9;
+    padding: 2em;
+    margin-bottom: 3em;
+}
+
+
+
+
